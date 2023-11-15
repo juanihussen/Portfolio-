@@ -1,0 +1,449 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: #040e1c;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+/*----------------nav-bat----------------*/
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    height: 80px;
+    background-color: #061739;
+}
+
+.img-container img{
+    height: 80px;
+    padding-left: 120px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    padding-right: 180px;
+}
+
+nav li{
+    list-style: none;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+nav li a:hover{
+    color: rgba(255, 255, 255, 0.305);
+    transition: 0.2s;
+}
+#color-mode{
+    color: black;
+    font-weight: 800;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+#color-mode:hover{
+    color: white;
+    background-color: black;
+}
+
+                            /*first-article*/
+
+.first-article{
+    display: flex;
+    justify-content: space-between;
+    padding: 180px 50px ;
+    box-shadow: 5px 10px 15px #000000;
+}
+                                /*left*/
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15%;
+    gap: 45px;
+    
+}
+.left img {
+    height: 250px;
+    border-radius: 100%;
+}
+.left h1{
+    color: white;
+    font-size: 35px;
+    
+}
+.left ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    
+
+}
+.left a {
+    color: white;
+    font-size: 40px;
+}
+#github-icon:hover{
+    color: black;
+    
+    
+   
+    transition: 0.3s;
+}
+#linkedIn-logo:hover{
+    color: rgb(0, 157, 255);
+    transition: 0.3s;
+}
+#mail-logo:hover{
+    color: red;
+    transition: 0.3s;
+    
+}
+                                /*right*/
+.right{
+    font-family: 'Sulphur Point', sans-serif;
+
+}
+.right h1{
+    color: white;
+    padding-bottom: 45px;
+    font-size: 125px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.right p{
+    text-align: justify;
+    color: white;
+    font-size: 25px;
+}
+
+                            /*second-article*/
+
+.second-article{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    color: white;
+    padding: 100px 100px;
+    background-color: #061738;
+    
+} 
+
+.upper-part{
+    padding-bottom: 40px;
+}
+.upper-part h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.upper-part p{
+    font-weight: 300;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.bottom-part{
+    display: flex;
+    justify-content:baseline;
+    gap:500px;
+}
+
+
+
+.studies li{
+    font-size: 25px;
+    padding-left: 10px;
+    
+}
+.studies h3{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.511);
+}
+.studies h4{
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.511);
+}
+
+.TechStack{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.TechStack ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none; 
+}
+
+.TechStack li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 8px;
+}
+ 
+
+
+
+
+#html{
+    font-size: 70px;
+    color: orange;
+    
+}
+#css{
+    font-size: 70px;
+    color: rgb(114, 114, 190);
+}
+#javascript{
+    font-size: 70px;
+    color: rgb(242, 255, 0);
+}
+#react{
+    font-size: 70px;
+    color: rgb(0, 191, 255);
+}
+#github{
+    font-size: 70px;
+    color: white;
+}
+
+                            /*third-article*/
+
+.third-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.third-article h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.third-article ul{
+    list-style: none;
+}
+
+
+
+.proyects{
+    padding-top: 50px;
+    padding-bottom: 105px ;
+}
+
+.card{
+    height: 500px;
+    width: 350px;
+    
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 8px 8px 4px black;
+}
+
+.card img{
+    width: 100%;
+    height: 60%;
+    border-radius: 15px 15px 0px 0px;;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #061739;
+    height: 50%;
+    border-radius:0px 0px  0px 15px ;
+    
+    
+    
+}
+.card-info h1{
+    font-size: 30px;
+    padding: 15px 0px ;
+}
+
+
+
+.skills-card{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+#html-card{
+    color: rgb(255, 166, 0);
+    font-size: 35px;
+}
+#css-card{
+    color: rgb(0, 191, 255);
+    font-size: 35px;
+}
+#outline-card{
+    color: #01b6e3;
+    padding-left: 5px;
+}
+
+
+.botones-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.card-info a{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border: 1px solid #01b6e3; 
+    padding: 5px; 
+    text-decoration: none;
+    border-radius: 7px; 
+    color: #01b6e3;
+    font-size: 20px;
+    
+}
+.card-info a:hover{
+    color: #000000;
+    background-color: white;
+    transition: 0.3s;
+}
+
+
+
+                            /*fourth-article*/
+
+
+
+.fourth-article{
+    background-color: #061739;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth-article h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 100px;
+    color: white;
+}
+
+.separate-subtittle{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    padding-bottom: 100px;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.left-side h1{
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 500;
+    font-size: 60px;
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.left-side h2{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+    form{
+        background-color: #040e1c;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        
+      }
+  
+      label {
+        display: block;
+        margin-bottom: 8px;
+        color: white;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 25px;
+        padding-left: 5px;
+      }
+  
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px 70px;
+        margin-bottom: 36px;
+        box-sizing: border-box;
+        background-color: #061738;
+        border-radius: 5px;
+      }
+  
+      button {
+        background-color: #01b6e3;
+        color: #fff;
+        padding: 10px 45.5%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  
+      button:hover {
+        background-color: #061738;
+      }
+
+
+
+
+
+
+
+
+
+
